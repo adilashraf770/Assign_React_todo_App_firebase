@@ -1,0 +1,58 @@
+.sticky-card {
+    min-height: 300px;
+    width: auto;
+
+    margin-top: .5rem;
+    padding: 1rem;
+
+    border-radius: 10px;
+    // color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 0;
+
+    // .sticky-card-header {
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: space-between;
+    //     align-items: center;
+    // }
+
+    .sticky-card-header h1 {
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+
+    .sticky-card-header p {
+        font-family: auto;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    p {
+
+        font-family: auto;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+
+.sticky-card-btn {
+    background-color: #78727641;
+    margin-top: .5rem;
+
+    .btn button {
+        min-height: 300px;
+        min-width: 300px;
+
+        border: 1px solid #787276;
+
+        font-size: 60px;
+        color: #787276fe;
+    }
+}

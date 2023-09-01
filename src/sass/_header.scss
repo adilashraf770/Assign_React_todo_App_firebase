@@ -1,0 +1,21 @@
+.sidebar {
+    background-color: white;
+}
+
+.sider {
+    border-radius: 10px;
+    // padding: 1rem;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sider-auth {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
